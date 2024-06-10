@@ -43,11 +43,18 @@ const Hero = () => {
               alt="HeroImg"
             />
             <div className="absolute right-0 top-12 md:top-52 text-white flex flex-col justify-center items-center space-y-12 ">
-              
-              <FaInstagram className=" h-4 md:h-6 w-4 md:w-6" />
-              <FaXTwitter className="h-4 md:h-6 w-4 md:w-6" />
-              <FaLinkedin className="h-4 md:h-6 w-4 md:w-6" />
-              <h1 className="tilt text-[0.75rem] md:text-[1.25rem]  ">Follow us -</h1>
+              <a href="https://www.instagram.com/ch_sahilpanwar?igsh=MXJ1MXp5ZTZhNnQ2OA%3D%3D&utm_source=qr">
+                <FaInstagram className=" h-4 md:h-6 w-4 md:w-6" />
+              </a>
+              <a href="https://x.com/sahilpanwa58776?s=21">
+                <FaXTwitter className="h-4 md:h-6 w-4 md:w-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/sahil-panwar-715370294/">
+                <FaLinkedin className="h-4 md:h-6 w-4 md:w-6" />
+              </a>
+              <h1 className="tilt text-[0.75rem] md:text-[1.25rem]  ">
+                Follow us -
+              </h1>
             </div>
           </div>
         </div>
