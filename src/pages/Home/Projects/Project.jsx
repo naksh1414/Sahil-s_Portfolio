@@ -17,7 +17,7 @@ const Project = () => {
       <div className="flex flex-col justify-center mt-10">
         <div className="flex justify-center space-x-9">
           <a href="/barber_project">
-            <img src={img1} alt="imageu" />
+            <img src={img1} alt="image" />
           </a>
           <a href="/atrangi_project">
             <img className="pt-[100px]" src={img2} alt="image" />
@@ -28,7 +28,7 @@ const Project = () => {
             <img className="mt-[-150px]" src={img3} alt="image" />
           </a>
           <a href="/gdsc_project">
-          <img className="pt-[60px]" src={img4} alt="image" />
+            <img className="pt-[60px]" src={img4} alt="image" />
           </a>
         </div>
       </div>
