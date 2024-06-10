@@ -7,7 +7,7 @@ import img4 from "../../../assets/Projects/Rectangle 19.svg";
 
 const Project = () => {
   return (
-    <main className="h-full">
+    <main id="projects" className="h-full">
       <div className="flex flex-col justify-center items-center">
         <h2 className="red-color text-[1.3rem]">Projects</h2>
         <h1 className="text-[3.4rem] text-color new-font">

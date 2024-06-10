@@ -2,7 +2,7 @@ import Arrow from "../../../assets/reviews/Arrow 3.svg";
 import SwiperCards from "./Swiper";
 const Reviews = () => {
   return (
-    <main className="h-full">
+    <main id="review" className="h-full">
       <div className="flex flex-row ml-20 mt-[100px]">
         <h1 className="new-font text-color text-[3.43rem]">
           See what <br />

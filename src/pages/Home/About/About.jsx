@@ -21,7 +21,7 @@ const About = () => {
     },
   ];
   return (
-    <main className="h-[100vh] mt-[100px]">
+    <main id="about" className="h-[100vh] mt-[100px]">
       <div className="flex flex-row">
         {/* left image div  */}
         <div className="w-[50%] flex justify-center items-center">

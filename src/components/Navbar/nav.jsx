@@ -8,15 +8,15 @@ const Nav = () => {
     },
     {
       title: "About",
-      link: "/",
+      link: "#about",
     },
     {
       title: "Portfolio",
-      link: "/",
+      link: "#projects",
     },
     {
       title: "Review",
-      link: "/",
+      link: "#review",
     },
   ];
   return (
