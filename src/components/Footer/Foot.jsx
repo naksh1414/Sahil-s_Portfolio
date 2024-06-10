@@ -46,8 +46,12 @@ const Foot = () => {
           <div className="w-[50%] flex flex-col justify-center items-center h-[40vh]">
             <img src={Joker} alt="img" />
             <div className="text-white flex space-x-12 mt-10">
-              <FaInstagram className="h-8 w-8 " />
-              <SiBehance className="h-8 w-8 " />
+              <a href="https://www.instagram.com/ch_sahilpanwar?igsh=MXJ1MXp5ZTZhNnQ2OA%3D%3D&utm_source=qr">
+                <FaInstagram className="h-8 w-8 " />
+              </a>
+              <a href="https://www.behance.net/sahilpanwar6">
+                <SiBehance className="h-8 w-8 " />
+              </a>
             </div>
           </div>
           {/* right div  */}
@@ -65,7 +69,6 @@ const Foot = () => {
               <ul>
                 <li>+91 9319146135</li>
                 <li>sahilpanwar0710@gmail.com</li>
-             
               </ul>
             </div>
           </div>
