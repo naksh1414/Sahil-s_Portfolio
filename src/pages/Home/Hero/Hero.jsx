@@ -43,7 +43,7 @@ const Hero = () => {
               src={heroImg}
               alt="HeroImg"
             />
-            <div className="absolute right-0 top-12 md:top-52 text-white flex flex-col justify-center items-center space-y-12 ">
+            <div className="absolute right-0 top-12 md:top-52 text-white flex flex-col justify-center items-center space-y-10 ">
               <a
                 className="hover:text-red-600"
                 href="https://www.instagram.com/ch_sahilpanwar?igsh=MXJ1MXp5ZTZhNnQ2OA%3D%3D&utm_source=qr"
