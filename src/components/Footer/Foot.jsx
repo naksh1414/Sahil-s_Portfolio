@@ -8,7 +8,7 @@ const Foot = () => {
   const [email, setEmail] = useState("");
 
   return (
-    <main className="mt-10">
+    <main className="mt-10 h-full">
       <div className="flex bg-red-600 -z-40">
         {/* text and form  */}
         <div className="w-[50%] flex flex-col justify-center items-center text-center">
@@ -37,7 +37,7 @@ const Foot = () => {
         </div>
       </div>
       {/* footer starts  */}
-      <div className="md:h-[20vh] flex justify-center">
+      <div className="md:h-full mt-10 w-full flex justify-center">
         <div className="flex flex-col justify-center items-center md:flex-row">
           {/* left div  */}
           <div className="w-[50%] p-5 flex flex-col justify-center items-center h-[40vh]">
@@ -52,8 +52,8 @@ const Foot = () => {
             </div>
           </div>
           {/* right div  */}
-          <div className="flex md:flex-row flex-col justify-center items-center space-x-10 leading-loose">
-            <div className="text-white text-center">
+          <div className="flex md:flex-row flex-col justify-center items-center space-x-10 w-full leading-loose">
+            <div className="text-white md:ml-[80px] md:w-full text-center">
               <h1 className="text-[1.25rem] font-semibold">Useful Links</h1>
               <ul>
                 <li>About Me</li>
@@ -61,7 +61,7 @@ const Foot = () => {
                 <li>Review</li>
               </ul>
             </div>
-            <div className="text-white hidden md:flex md:mt-[-30px] text-center">
+            <div className="text-white hidden md:flex flex-col md:mt-[-30px] text-center">
               <h1 className="text-[1.25rem] font-semibold">Contact</h1>
               <ul>
                 <li>+91 9319146135</li>

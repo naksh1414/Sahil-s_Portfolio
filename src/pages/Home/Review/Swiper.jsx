@@ -12,7 +12,7 @@ import "swiper/css/navigation";
 import "./styles.css";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 export default function SwiperCards() {
   return (
@@ -27,12 +27,12 @@ export default function SwiperCards() {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        // navigation={true}
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="flex justify-center items-center">
+          <div className="flex h-full my-10 justify-center items-center">
             <img src={img2} alt="" />
           </div>
           {/* <div className="flex justify-center p-4">
