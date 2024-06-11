@@ -8,10 +8,14 @@ const Work = () => {
     <main className="h-full w-full">
       <div className="flex flex-row">
         {/* left div  */}
-        <div className="w-[50%] flex justify-between items-start flex-col ">
+        <div className="w-[50%] hidden md:flex justify-between items-start flex-col ">
           <div className="flex ml-20 ">
-            <h1 className="text-white new-font text-[3.4rem]">
+            <h1 className="text-white new-font hidden md:flex text-[1rem] md:text-[3.4rem]">
               See How I <br />
+              Work
+            </h1>
+            <h1 className="text-white new-font flex md:hidden text-[1rem] md:text-[3.4rem]">
+              See How I
               Work
             </h1>
             <img className="mt-20" src={Arrow} alt="arrow" />
@@ -34,7 +38,7 @@ const Work = () => {
 
         {/* Right div  */}
         <div>
-          <div>
+          <div className="p-4">
             <h1 className="new-font text-color text-[2.25rem] mt-10 space-y-4">
               Reserach
             </h1>
@@ -48,7 +52,7 @@ const Work = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="p-4">
             <h1 className="new-font text-color text-[2.25rem] mt-14 space-y-4">
               Wireframing
             </h1>
@@ -65,7 +69,7 @@ const Work = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="p-4">
             <h1 className="new-font text-color text-[2.25rem] mt-14 space-y-4">
               ProtoTyping
             </h1>
@@ -82,7 +86,7 @@ const Work = () => {
               </p>
             </div>
           </div>
-          <div>
+          <div className="p-4">
             <h1 className="new-font text-color text-[2.25rem] mt-14 space-y-4">
               Hand Off
             </h1>

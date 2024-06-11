@@ -12,21 +12,18 @@ const Foot = () => {
       <div className="flex bg-red-600 -z-40">
         {/* text and form  */}
         <div className="w-[50%] flex flex-col justify-center items-center text-center">
-          <h1 className="new-font text-white text-[3.43rem] font-semibold">
+          <h1 className="new-font text-white text-[1.5rem] md:text-[3.43rem] font-semibold">
             Ready to Discuss <br /> Your Project ?
           </h1>
-          <div className="mt-10">
-            <div className=" absolute mt-2 flex justify-end w-[400px] -z-1">
-              {/* <label className="text-white/50 ml-3" htmlFor="">
-                Email
-              </label> */}
-              <a href="">
+          <div className=" relative mt-10 flex justify-center">
+            <div className=" absolute ml-44 md:ml-0 mt-2 flex justify-end w-[200px] md:w-[400px] -z-1">
+              <a className="ml-44" href="">
                 <IoArrowRedoOutline className="text-white" />
               </a>
             </div>
 
             <input
-              className="bg-transparent text-white border-b-2 w-[400px] h-[30px] z-10 placeholder:text-white/50 focus:border-none"
+              className="bg-transparent ml-44 md:ml-0 text-white border-b-2 w-[250px] md:w-[400px] h-[30px] z-10 placeholder:text-white/90 focus:border-none"
               type="text"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -40,10 +37,10 @@ const Foot = () => {
         </div>
       </div>
       {/* footer starts  */}
-      <div className="h-[20vh]">
-        <div className="flex">
+      <div className="md:h-[20vh] flex justify-center">
+        <div className="flex flex-col justify-center items-center md:flex-row">
           {/* left div  */}
-          <div className="w-[50%] flex flex-col justify-center items-center h-[40vh]">
+          <div className="w-[50%] p-5 flex flex-col justify-center items-center h-[40vh]">
             <img src={Joker} alt="img" />
             <div className="text-white flex space-x-12 mt-10">
               <a href="https://www.instagram.com/ch_sahilpanwar?igsh=MXJ1MXp5ZTZhNnQ2OA%3D%3D&utm_source=qr">
@@ -55,7 +52,7 @@ const Foot = () => {
             </div>
           </div>
           {/* right div  */}
-          <div className="flex justify-center items-center space-x-10 leading-loose">
+          <div className="flex md:flex-row flex-col justify-center items-center space-x-10 leading-loose">
             <div className="text-white text-center">
               <h1 className="text-[1.25rem] font-semibold">Useful Links</h1>
               <ul>
@@ -64,7 +61,7 @@ const Foot = () => {
                 <li>Review</li>
               </ul>
             </div>
-            <div className="text-white mt-[-30px]">
+            <div className="text-white hidden md:flex md:mt-[-30px] text-center">
               <h1 className="text-[1.25rem] font-semibold">Contact</h1>
               <ul>
                 <li>+91 9319146135</li>

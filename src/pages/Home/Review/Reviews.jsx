@@ -2,15 +2,18 @@ import Arrow from "../../../assets/reviews/Arrow 3.svg";
 import SwiperCards from "./Swiper";
 const Reviews = () => {
   return (
-    <main id="review" className="h-full">
-      <div className="flex flex-row ml-20 mt-[100px]">
-        <h1 className="new-font text-color text-[3.43rem]">
+    <main id="review" className="h-full mb-20">
+      <div className="flex flex-row justify-center mb-10 md:ml-20 mt-[100px]">
+        <h1 className="new-font hidden md:flex text-color text-[2rem] md:text-[3.43rem]">
           See what <br />
           Client said
         </h1>
-        <img className="ml-10 mt-20" src={Arrow} alt="arrow" />
+        <h1 className="new-font flex md:hidden text-color text-[1.8rem] md:text-[3.43rem]">
+          See what Client said
+        </h1>
+        <img className="hidden md:flex ml-10 mt-20" src={Arrow} alt="arrow" />
       </div>
-      <div className="mt-[-100px] h-[100vh]">
+      <div className=" mt-10 md:mt-[-100px] h-full">
         <SwiperCards />
       </div>
 

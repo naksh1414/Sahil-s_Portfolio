@@ -7,25 +7,25 @@ import img4 from "../../../assets/Projects/Rectangle 19.svg";
 
 const Project = () => {
   return (
-    <main id="projects" className="h-full">
+    <main id="projects" className="h-full mt-4">
       <div className="flex flex-col justify-center items-center">
         <h2 className="red-color text-[1.3rem]">Projects</h2>
-        <h1 className="text-[3.4rem] text-color new-font">
+        <h1 className="text-[2rem] md:text-[3.4rem] text-color new-font">
           I made for clients
         </h1>
       </div>
-      <div className="flex flex-col justify-center mt-10">
-        <div className="flex justify-center space-x-9">
+      <div className="flex flex-col justify-center mt-10 p-4">
+        <div className="md:flex justify-center space-x-9">
           <a href="/barber_project">
             <img src={img1} alt="image" />
           </a>
           <a href="/atrangi_project">
-            <img className="pt-[100px]" src={img2} alt="image" />
+            <img className="md:pt-[100px]" src={img2} alt="image" />
           </a>
         </div>
-        <div className="flex justify-center space-x-10">
+        <div className="md:flex justify-center space-x-10">
           <a href="/broker_project">
-            <img className="mt-[-150px]" src={img3} alt="image" />
+            <img className=" mt-10 md:mt-[-150px]" src={img3} alt="image" />
           </a>
           <a href="/gdsc_project">
             <img className="pt-[60px]" src={img4} alt="image" />

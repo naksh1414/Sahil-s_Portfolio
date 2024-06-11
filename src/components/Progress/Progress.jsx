@@ -4,12 +4,12 @@ import "react-circular-progressbar/dist/styles.css";
 
 const Progress = ({ data }) => {
   return (
-    <div className="flex flex-row space-x-5">
+    <div className="flex flex-col justify-center items-center md:flex-row md:space-x-5">
       {data.map((item, index) => (
         <div
           key={index}
-          style={{ width: 110, height: 110 }}
-          className="w-full text-red-500 flex flex-col justify-center items-center"
+          style={{ width: 100, height: 100 }}
+          className="w-full text-red-500 flex flex-col justify-center items-center mb-4"
         >
           <CircularProgressbar
             value={item.percentage}

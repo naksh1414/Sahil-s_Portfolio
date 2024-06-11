@@ -4,7 +4,8 @@ import "./Hero.css";
 import { fadeIn } from "../../../utils/Variant";
 import { motion } from "framer-motion";
 import Button, { Button2 } from "../../../components/Buttons/Button";
-import parImg from "../../../assets/hero/Group 5.svg";
+// import parImg from "../../../assets/hero/Group 5.svg";
+import parimg from "../../../assets/hero/Group 81.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -43,13 +44,22 @@ const Hero = () => {
               alt="HeroImg"
             />
             <div className="absolute right-0 top-12 md:top-52 text-white flex flex-col justify-center items-center space-y-12 ">
-              <a href="https://www.instagram.com/ch_sahilpanwar?igsh=MXJ1MXp5ZTZhNnQ2OA%3D%3D&utm_source=qr">
+              <a
+                className="hover:text-red-600"
+                href="https://www.instagram.com/ch_sahilpanwar?igsh=MXJ1MXp5ZTZhNnQ2OA%3D%3D&utm_source=qr"
+              >
                 <FaInstagram className=" h-4 md:h-6 w-4 md:w-6" />
               </a>
-              <a href="https://x.com/sahilpanwa58776?s=21">
+              <a
+                className="hover:text-red-600"
+                href="https://x.com/sahilpanwa58776?s=21"
+              >
                 <FaXTwitter className="h-4 md:h-6 w-4 md:w-6" />
               </a>
-              <a href="https://www.linkedin.com/in/sahil-panwar-715370294/">
+              <a
+                className="hover:text-red-600"
+                href="https://www.linkedin.com/in/sahil-panwar-715370294/"
+              >
                 <FaLinkedin className="h-4 md:h-6 w-4 md:w-6" />
               </a>
               <h1 className="tilt text-[0.75rem] md:text-[1.25rem]  ">
@@ -59,15 +69,20 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-red-500 h-[50px] md:h-[130px] w-full mt-[30px] md:mt-[-40px] !z-10 px-5">
-        <img src={parImg} alt="Image" className="object-cover w-full p-2" />
+      <div className="relative flex h-[110px] ml-[120px] mt-[-110px]">
+        <div
+          className={`
+        hidden justify-start md:flex md:flex-col w-full z-10`}
+        >
+          <span className="hidden md:flex mouse h-16 w-8 rounded-2xl border-2 border-black dark:border-white">
+            <span className="move bg-black dark:bg-white"></span>
+          </span>
+          {/* <h2 className="Sd text-black dark:text-white">Scroll down</h2> */}
+        </div>
       </div>
-
-      <div className={`scroll-down-animation w-full z-10`}>
-        <span className="mouse border-2 border-black dark:border-white">
-          <span className="move bg-black dark:bg-white"></span>
-        </span>
-        <h2 className="Sd text-black dark:text-white">Scroll down</h2>
+      <div className="h-[50px] md:h-[130px] w-full mt-[30px] md:mt-[-46px] !z-10">
+        {/* <img src={parImg} alt="Image" className="object-cover w-full p-2" /> */}
+        <img className="w-full" src={parimg} alt="image" />
       </div>
     </main>
   );

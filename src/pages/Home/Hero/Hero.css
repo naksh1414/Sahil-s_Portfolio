@@ -1,9 +1,11 @@
-.scroll-down-animation {
-  position: absolute;
+/* .scroll-down-animation {
+  position: relative;
   bottom: 0;
-  /* left: 50%;
+  left: 0;
+  margin-right: 50%;
+  left: 50%;
   right: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(-50%, -50%);
 }
 .move {
   position: absolute;
@@ -40,8 +42,48 @@
   height: 45px;
   width: 28px;
   position: relative;
-}
+} */
 
-.tilt{
+.tilt {
   transform: rotate(270deg);
+}
+.move {
+  /* position: absolute; */
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-left: 15px;
+  /* left: 50%; */
+  /* right: 50%; */
+  /* transform: translateX(-50%, -50%); */
+  animation: move 2.5s linear infinite;
+}
+@keyframes move {
+  0% {
+    transform: translate(-50%, 8px);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(-50%, 18px);
+    opacity: 1;
+  }
+  60%{
+    transform: translate(-50%, 28px);
+    opacity: 1;
+  }
+  75% {
+    transform: translate(-50%, 38px);
+    opacity: 1;
+  }
+ 
+  100% {
+    transform: translate(-50%, 48px);
+    opacity: 0;
+  }
+
+}
+.Sd {
+  /* text-align: center; */
+  margin-top: 1px;
+  /* padding-right: 90px; */
 }
