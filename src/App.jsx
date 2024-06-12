@@ -7,6 +7,7 @@ import Barber from "./pages/Barber_Project/Barber";
 import Atrangi from "./pages/Atrangi_Project/Atrangi";
 import Broker from "./pages/Broker_Buddy/Broker";
 import Gdsc from "./pages/Gdsc_Project/Gdsc";
+import Explore from "./pages/Explore_More/Explore";
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/atrangi_project" element={<Atrangi />} />
           <Route path="/broker_project" element={<Broker />} />
           <Route path="/gdsc_project" element={<Gdsc />} />
+          <Route path="/explore" element={<Explore />} />
         </Routes>
       </Router>
     </>

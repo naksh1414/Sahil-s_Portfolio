@@ -33,9 +33,11 @@ const Project = () => {
         </div>
       </div>
       <div className="flex justify-center items-center mt-14  ">
-        <button className="bg-red-600 w-[300px] text-white py-3 px-6 rounded-md">
-          EXPLORE MORE PROJECTS
-        </button>
+        <a href="/explore">
+          <button className="bg-red-600 w-[300px] text-white py-3 px-6 rounded-md">
+            EXPLORE MORE PROJECTS
+          </button>
+        </a>
       </div>
     </main>
   );

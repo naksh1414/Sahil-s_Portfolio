@@ -3,7 +3,7 @@ import SwiperCards from "./Swiper";
 const Reviews = () => {
   return (
     <main id="review" className="h-full mb-20">
-      <div className="flex flex-row justify-center mb-10 md:ml-20 mt-[100px]">
+      <div className="flex flex-row justify-center md:justify-start mb-10 md:ml-20 mt-[100px]">
         <h1 className="new-font hidden md:flex text-color text-[2rem] md:text-[3.43rem]">
           See what <br />
           Client said
