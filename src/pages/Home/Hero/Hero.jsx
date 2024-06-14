@@ -9,7 +9,8 @@ import parimg from "../../../assets/hero/Group 81.svg";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-import TypewriterEffectSmoothDemo from "../../../components/Type/type";
+import TypeEffect from "../../../components/Type/type2";
+// import TypewriterEffectSmoothDemo from "../../../components/Type/type";
 const Hero = () => {
   return (
     <main>
@@ -25,7 +26,11 @@ const Hero = () => {
               HI THERE! THIS IS SAHIL PANWAR
             </h1>
             {/* <img className="w-[500px]" src={textImg} alt="textImg" /> */}
-            <TypewriterEffectSmoothDemo />
+            {/* <TypewriterEffectSmoothDemo />
+             */}
+            {/* <typeEffect /> */}
+            {/* <typeEffect /> */}
+            <TypeEffect />
             <h2 className="text-color2 text-[1rem] md:text-[2rem]">
               Crafting Imagination Into Reality
             </h2>

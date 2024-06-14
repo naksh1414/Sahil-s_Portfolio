@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Button = ({ data }) => {
   return (
@@ -19,11 +20,11 @@ export const Button2 = ({ data }) => {
 };
 export const Button3 = ({ data, download }) => {
   return (
-    <a href="/download" download={download}>
+    <Link to="/download" download={download}>
       <button className="w-[200px] ml-4 text-white bg-red-600 h-[55px]">
         {data}
       </button>
-    </a>
+    </Link>
   );
 };
 export const Button4 = ({ data }) => {

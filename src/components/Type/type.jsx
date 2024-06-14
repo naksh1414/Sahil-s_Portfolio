@@ -79,7 +79,8 @@ const TypewriterEffectSmooth = ({ words, className, cursorClassName }) => {
 export default function TypewriterEffectSmoothDemo() {
   const words = [
     { text: "I" },
-    { text: "am a" },
+    { text: "am" },
+    { text: "a" },
     { text: "UI/UX", className: "red-color" },
     { text: "Designer" },
   ];
