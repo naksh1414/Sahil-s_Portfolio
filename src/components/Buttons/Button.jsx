@@ -11,11 +11,11 @@ const Button = ({ data }) => {
 
 export const Button2 = ({ data }) => {
   return (
-    <a href="/download">
+    <Link to="/download">
       <button className="w-[100px] md:w-[200px] ml-4 text-white h-[40px] md:h-[55px] transition duration-300 border-2 border-white hover:text-red-600 hover:border-red-600">
         {data}
       </button>
-    </a>
+    </Link>
   );
 };
 export const Button3 = ({ data, download }) => {
